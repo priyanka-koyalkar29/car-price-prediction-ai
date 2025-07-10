@@ -41,6 +41,14 @@ The model will return the **predicted selling price**.
 ```bash
 git clone https://github.com/priyanka-koyalkar29/car-price-prediction-ai.git
 cd car-price-prediction-ai
+2. Install dependencies
+pip install -r requirements.txt
+3. Run the app
+python app.py
+4. Open your browser
+Go to: http://127.0.0.1:5000
+
+
 
 
 
