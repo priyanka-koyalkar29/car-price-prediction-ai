@@ -48,6 +48,18 @@ python app.py
 4. Open your browser
 Go to: http://127.0.0.1:5000
 
+📁 Project Structure
+car-price-prediction-ai/
+│
+├── app.py              # Flask application
+├── car_data.csv        # Dataset
+├── requirements.txt    # Python dependencies
+├── index.html          # Frontend form
+├── style.css           # Styling
+├── screenshot.png      # UI screenshot
+└── README.md           # You’re reading it!
+
+
 
 
 
