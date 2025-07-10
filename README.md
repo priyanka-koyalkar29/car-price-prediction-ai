@@ -26,7 +26,8 @@ python app.py
 
 ## Preview
 
-![App Screenshot](https://via.placeholder.com/600x300.png?text=Car+Price+Prediction+UI)
+![App Screenshot](screenshot.png)
+
 
 ---
 
