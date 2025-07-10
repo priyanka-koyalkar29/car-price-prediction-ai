@@ -1,63 +1,28 @@
-# 🚗 Car Price Prediction (A.I.)
+# Car Price Prediction (A.I.)
 
-This project predicts the resale price of a car using Machine Learning techniques. It's built using Python, Flask, and a simple HTML+CSS frontend. Users can input car details and get an estimated selling price instantly.
+A simple web app to predict the selling price of a car using machine learning.
 
----
+## 🧠 Technologies Used:
+- Python
+- Scikit-learn
+- Flask
+- HTML/CSS
 
-## 📷 App UI Screenshot
+## 🚀 How to Run:
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `python app.py`
+4. Open `http://127.0.0.1:5000/` in your browser.
 
-![App Screenshot](screenshot.png)
+## 📦 Model
+Trained using linear regression on a used cars dataset with features like year, km driven, fuel type, etc.
 
----
+## ✨ Project Structure
+- `app.py`: Backend Flask app
+- `model/`: Contains trained model (`.pkl`)
+- `templates/`: HTML frontend
+- `static/`: CSS styles
 
-## 🔧 How It Works
-
-Enter the following car details:
-- Year of Purchase
-- Present Price (in Lakhs)
-- Kms Driven
-- Fuel Type (Petrol = 2, Diesel = 0, CNG = 1)
-- Seller Type (Dealer = 0, Individual = 1)
-- Transmission (Manual = 0, Automatic = 1)
-- Number of Previous Owners
-
-The model will return the **predicted selling price**.
-
----
-
-## 🛠️ Tech Stack
-
-- 🧠 **Machine Learning**: Linear Regression
-- 🐍 **Backend**: Python, Flask
-- 💻 **Frontend**: HTML, CSS
-- 📊 **Data**: `car_data.csv`
-- 📦 **Dependencies**: See `requirements.txt`
-
----
-
-## 🚀 How to Run Locally
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/priyanka-koyalkar29/car-price-prediction-ai.git
-cd car-price-prediction-ai
-2. Install dependencies
-pip install -r requirements.txt
-3. Run the app
-python app.py
-4. Open your browser
-Go to: http://127.0.0.1:5000
-
-📁 Project Structure
-car-price-prediction-ai/
-│
-├── app.py              # Flask application
-├── car_data.csv        # Dataset
-├── requirements.txt    # Python dependencies
-├── index.html          # Frontend form
-├── style.css           # Styling
-├── screenshot.png      # UI screenshot
-└── README.md           # You’re reading it!
 
 
 
